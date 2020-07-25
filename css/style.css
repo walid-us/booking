@@ -801,10 +801,8 @@ p {
 
 .contact-us .place ul li{
     list-style: none;
-    padding: 7px 7px 7px 8px;
     line-height: 1.2;
     margin-right: 10px;
-    padding: 10px;
     width: 35px;
     height: 35px;
     border: 1px solid #F0E3D0;
@@ -815,11 +813,15 @@ p {
     -o-border-radius: 50%;
     text-align: end;
     font-size: 15px;
+    line-height: 34px;
+    text-align: center;
 }
 
+
 .contact-us .place  svg:not(:root).svg-inline--fa {
-    margin: -1px 0px 0 -1px;
+    margin: -1px 0px 0 0px;
     color: #fff;
+    font-size: 14px;
 }
 
 .contact-us .quick h6 {
